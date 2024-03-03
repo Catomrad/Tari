@@ -1,0 +1,80 @@
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+#hat{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    margin: 0 auto 0 auto;
+    width: 1440px;
+    display: flex;
+}
+#logo{
+    height: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#phone_container{
+}
+#phone_container>ul>li{
+    font-size: 20px;
+    color: #023E73;
+}
+
+#link_container{
+    margin-left: auto;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+#link_container>ul{
+    display: flex;
+    gap: 30px;
+}
+#link_container>ul>li>a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #023E73;
+    text-transform: uppercase;
+}
+#hat > button{
+    margin: 5px 5px 0 0;
+    min-height: 50px;
+    max-height: 60px;
+    min-width: 200px;
+    padding: 0 20px 0 20px;
+    border-radius: 30px;
+    border-style: none;
+    background: linear-gradient(to right, #023E73, #FFFFFF 140%);
+    color: white;
+    font-size: 20px;
+}
+#hat > button:hover{
+    background: blue;
+}
+
+
+
