@@ -8,22 +8,53 @@
 
 {% block main %}
 <div id="main-container">
-    <div id="image-container">
-        <img src= "{{url_for ('static', filename='img/ESCF1606.jpg') }}">
-        <div class="text-container">
-            <span id="big-span">Лучшая забота о вашей улыбке</span><br>
-            <span>Бесплатная консультация ортопеда</span><br>
-            <span>Лечение и протезирование в одной клинике</span><br>
-            <button>Позвонить</button>
+    <div id = image-scroll-container>
+        <div class="image-container">
+            <img src= "{{url_for ('static', filename='img/ESCF1606.jpg') }}">
+            <div class="text-container">
+                <span class="big-span">Лучшая забота о вашей улыбке</span><br>
+                <span>Бесплатная консультация ортопеда</span><br>
+                <span>Лечение и протезирование в одной клинике</span><br>
+                <button>Позвонить</button>
         </div>
-        <div class="button-container">
-            <button>Запись на прием</button>
+        <div class="image-container">
+            <img src= "{{url_for ('static', filename='img/ESCF1606.jpg') }}">
+            <div class="text-container">
+                <span class="big-span">Лучшая забота о вашей улыбке</span><br>
+                <span>Бесплатная консультация ортопеда</span><br>
+                <span>Лечение и протезирование в одной клинике</span><br>
+                <button>Позвонить</button>
+            </div>
         </div>
+    </div>
+<!--        <div class="button-container">-->
+<!--            <button>Запись на прием</button>-->
+<!--        </div>-->
     </div>
     <div id="popular-services-container">
         <h1>Популярные услуги</h1>
         <div id="popular-services">
-            <div id="scroll-container">
+            <div id="service-scroll-container">
+                <div class="service">
+                    <img src="{{url_for ('static', filename='img/ESCF1345.jpg') }}">
+                    <div class="service-name">Лечение кариеса и
+                        его осложнений</div>
+                    <br>
+                    <div class="service-cost">ОТ <span>2200</span> Р</div>
+                </div>
+                <div class="service">
+                    <img src="{{url_for ('static', filename='img/ESCF1784.jpg') }}">
+                    <div class="service-name">Профессиональная гигиена +
+                        глубокое фторирование</div>
+                    <br>
+                    <div class="service-cost">ОТ <span>2200</span> Р</div>
+                </div>
+                <div class="service">
+                    <img src="{{url_for ('static', filename='img/ESCF1629.jpg') }}">
+                    <div class="service-name">Ортопедическое лечение</div>
+                    <br>
+                    <div class="service-cost">ОТ <span>2200</span> Р</div>
+                </div>
                 <div class="service">
                     <img src="{{url_for ('static', filename='img/ESCF1345.jpg') }}">
                     <div class="service-name">Лечение кариеса и

@@ -1,0 +1,47 @@
+#popular-services-container{
+    margin-top: 20px;
+    text-align: center;
+}
+#popular-services-container > h1{
+    color: #023E73;
+    font-size: 44px;
+    font-weight: 600;
+}
+#popular-services{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#service-scroll-container{
+    display: flex;
+    gap: 30px;
+    height:300px;
+    width: 1000px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.service{
+    width: 300px;
+    height: 200px;
+    scroll-snap-align: center;
+    text-align: justify;
+}
+.service img{
+    width: 300px;
+}
+.service-name{
+    height: 30px;
+    color: #023E73;
+    font-size: 20px;
+    font-weight: 400;
+}
+.service-cost{
+    color: #023E73;
+    font-size: 20px;
+    font-weight: 400;
+}
+.service-cost span{
+    font-size: 24px;
+    font-weight: 600;
+}

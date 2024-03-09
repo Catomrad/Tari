@@ -1,0 +1,57 @@
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+#hat{
+    padding-top: 10px;
+    background: white;
+    margin: 0 auto 0 auto;
+    width: 1440px;
+    display: flex;
+}
+#logo{
+    height: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#phone_container{
+    background: #023E73;
+    padding: 0px 5px 0px 5px;
+}
+#phone_container>ul>li{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+#link_container{
+    margin-left: auto;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+#link_container>ul{
+    display: flex;
+    gap: 30px;
+}
+#link_container>ul>li>a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #023E73;
+    text-transform: uppercase;
+}
+#hat > button{
+    margin: 5px 5px 0 0;
+    min-height: 50px;
+    max-height: 60px;
+    min-width: 200px;
+    padding: 0 20px 0 20px;
+    border-radius: 30px;
+    border-style: none;
+    background: linear-gradient(to right, #023E73, #FFFFFF 140%);
+    color: white;
+    font-size: 20px;
+}
+#hat > button:hover{
+    background: blue;
+}
