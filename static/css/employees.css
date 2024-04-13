@@ -1,18 +1,17 @@
-#employee-container{
+.employees-section{
     margin-top: 20px;
+
 }
-#employee-container > h1{
-    color: #023E73;
-    font-size: 34px;
-    font-weight: 600;
-    width: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+.employees__scroll-container{
+    display: flex;
+    justify-content: center;
+}
+.employees{
+    display: flex;
+    width: 80%;
+    overflow: hidden;
 }
 .employee-card{
-    display: flex;
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
@@ -36,10 +35,24 @@
     font-size: 14px;
     font-weight: 400;
 }
-.description{
+.employee-description{
+    display: none;
     text-align: left;
     margin-top: 20px;
     color: #023E73;
     font-size: 24px;
     font-weight: 400;
+}
+.employees__scroll-container > .prev-button,
+.employees__scroll-container > .next-button {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin: auto 10px;
+  transform: translateY(-50%);
+  background-color: #a5a3a3;
+  border-radius: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
 }

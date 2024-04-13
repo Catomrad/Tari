@@ -1,5 +1,8 @@
+:root{
+    --font-family: "Montserrat", sans-serif;
+}
 *{
-    font-family: Montserrat;
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
     border: 0;
@@ -20,6 +23,27 @@ li{
 a{
     text-decoration: none;
 }
-
+main{
+    border: 2px  solid grey ;
+    margin: auto;
+    width: 1440px;
+    background: white;
+}
+.section > h1{
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 44px;
+    font-weight: 600;
+    font-weight: 700;
+    background: linear-gradient(180deg, #023e73 19.63%, rgba(2, 62, 115, 0) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
 
 
